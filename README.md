@@ -1,75 +1,35 @@
-🎬 Sistema de Cinema
-Um sistema simples e interativo para gerenciar um cinema, desenvolvido em Python com interface de linha de comando.
-📋 Funcionalidades
+# 🎬 Sistema de Cinema
 
-🎬 Catálogo de Filmes: Visualize todos os filmes disponíveis
-🎫 Compra de Ingressos: Sistema de compra de ingressos para os filmes
-🛒 Histórico de Compras: Consulte suas compras anteriores
-⭐ Sistema de Feedback: Avalie e dê feedback sobre o sistema
-🚪 Interface Amigável: Menu intuitivo com emojis
+Um sistema de gerenciamento de ingressos de cinema desenvolvido em Python, oferecendo uma interface interativa via terminal para compra e gerenciamento de ingressos.
 
-🎯 Filmes Disponíveis
-O sistema inclui um catálogo com 15 filmes populares:
+## 🎯 Sobre o Projeto
 
-⚔️ Demon Slayer: Trem Infinito
-✨ Doutor Estranho no Multiverso da Loucura
-🚀 Guardiões da Galáxia
-⚡ Harry Potter e a Pedra Filosofal
-🕷️ Homem-Aranha: Através do Aranhaverso
-🕸️ Homem-Aranha: Sem Volta para Casa
-🌊 Luca
-👾 Monstros S.A.
-🦇 O Batman
-🐾 Pantera Negra
-🎵 Soul
-🏎️ Velozes e Furiosos 9
-🖤 Venom
-💎 Vingadores: Ultimato
-🕷️ Viúva Negra
+O Sistema de Cinema é uma aplicação de terminal que simula um sistema de compra de ingressos de cinema. O projeto foi desenvolvido como uma atividade somativa, demonstrando conceitos fundamentais de programação Python como estruturas de dados, loops, condicionais e tratamento de entrada do usuário.
 
-🚀 Como Usar
+## ⚡ Funcionalidades
 
-Clone o repositório:
-bashgit clone https://github.com/seu-usuario/sistema-cinema.git
+- **📺 Catálogo de Filmes**: Visualize todos os filmes disponíveis
+- **🎫 Compra de Ingressos**: Adquira ingressos para os filmes desejados
+- **🛒 Histórico de Compras**: Consulte todos os ingressos comprados
+- **⭐ Sistema de Feedback**: Avalie e deixe comentários sobre o sistema
+- **🔒 Validação de Entrada**: Tratamento robusto de dados inseridos pelo usuário
 
-Navegue até o diretório:
-bashcd sistema-cinema
+## 🎮 Uso
 
-Execute o programa:
-bashpython main.py
+Ao executar o programa, você verá um menu principal com as seguintes opções:
 
-Siga as instruções do menu:
+1. **🎬 Mostrar catálogo de filmes** - Exibe todos os filmes disponíveis
+2. **🎫 Comprar ingressos** - Permite selecionar e comprar ingressos
+3. **🛒 Ver minhas compras** - Mostra o histórico de compras
+4. **⭐ Dar Feedback do sistema** - Permite avaliar o sistema
+5. **🚪 Sair** - Encerra o programa
 
-Digite o número da opção desejada (1-5)
-Siga as instruções na tela
+### Filmes Disponíveis
 
-
-
-📦 Requisitos
-
-Python 3.6 ou superior
-Sistema operacional: Windows, macOS ou Linux
-
-🎮 Como Funciona
-O sistema apresenta um menu principal com 5 opções:
-------------------------------
-🎬 1 - Mostrar catalogo de filmes
-🎫 2 - Comprar ingressos
-🛒 3 - Ver minhas compras
-⭐ 4 - Dar Feedback do sistema
-🚪 5 - Sair
-------------------------------
-Principais Recursos:
-
-Validação de entrada: Sistema verifica se o usuário digitou um número válido
-Mensagens de erro amigáveis: Feedback claro em caso de erro
-Interface visual: Uso de emojis para melhor experiência do usuário
-Navegação intuitiva: Menu fácil de usar
-
-🔧 Estrutura do Projeto
-sistema-cinema/
-│
-├── main.py              # Arquivo principal
-├── filmes.py           # Lista de filmes disponíveis
-├── README.md           # Este arquivo
-└── requirements.txt    # Dependências (se houver)
+O sistema conta com 15 filmes populares, incluindo:
+- ⚔️ Demon Slayer: Trem Infinito
+- ✨ Doutor Estranho no Multiverso da Loucura
+- 🚀 Guardiões da Galáxia
+- ⚡ Harry Potter e a Pedra Filosofal
+- 🕷️ Homem-Aranha: Através do Aranhaverso
+- E muito mais!
